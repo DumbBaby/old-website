@@ -1,0 +1,89 @@
+body, html{
+	height:100%;
+
+
+}
+
+.bg {
+	background-color:#2728e2;
+	background-image: url("albumcovernt.png");
+	background-size:100px;
+	background-repeat:repeat space;
+	background-attachment: fixed;
+}
+
+.navList{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.navItem {
+	float:left;
+	padding:5px;
+}
+
+.navBar{
+	background-color:#ff71ce;
+	padding: 10px;
+	margin:auto;
+	height:30px;
+	width:80%;
+	border-style:none none solid solid;
+	border-width:medium;
+	border-color:#cc00cc;
+}
+
+a {
+	text-decoration:none;
+}
+
+a.navLink {
+	padding:10px;
+	margin:0px;
+	text-decoration:none;
+}
+
+a.navLink:hover {
+	background-color:#01cdfe;
+	border-style:none none solid solid;
+	border-width:medium;
+	border-color:#6699ff;
+}
+
+.textBox{
+	background-color:#ff71ce;
+	padding:20px;
+	margin:auto;
+	width:78%;
+	height:auto;
+	border-style:none none solid solid;
+	border-width:medium;
+	border-color:#cc00cc;
+}
+
+a.active {
+	padding:10px;
+	margin:0px;
+	text-decoration:none;
+	background-color:#01cdfe;
+	border-style:none none solid solid;
+	border-width:medium;
+	border-color:#6699ff;
+}
+
+#contentTable {
+	background-color:#01cdfe;
+	padding:5px;
+	margin:5px;
+	border-width:5px;
+	text-align:center;
+	border-color:black;
+}
+
+
+	
+
+
+
+
+
